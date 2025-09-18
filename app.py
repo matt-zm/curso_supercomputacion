@@ -6,7 +6,7 @@ import numpy as np
 # --- Configuración de la Página ---
 st.set_page_config(
     page_title="Predictor de Especies de Pingüinos",
-    page_icon="🐧",
+    page_icon="🦆",
     layout="centered"
 )
 
@@ -19,7 +19,7 @@ except Exception as e:
     st.stop()
 
 # --- Título y Descripción ---
-st.title('🐧 Predictor de Especies de Pingüinos')
+st.title('🦆 Predictor de Especies de Pingüinos')
 st.write("""
 Esta aplicación utiliza un modelo de Red Neuronal para predecir la especie de un pingüino
 (Adelie, Chinstrap o Gentoo) basándose en sus características físicas.
